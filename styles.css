@@ -64,11 +64,13 @@ nav a {
   max-width: 1200px;
   margin: 20px auto;
   margin-top: 5%;
+  padding: 0 20px;
 }
 
 .container {
   max-width: 1100px;
   margin: 20px auto;
+  padding: 20px;
   margin-top: 5%;
 }
 
@@ -84,7 +86,7 @@ nav a {
 }
 
 .m-button {
-  background: #36a86b;
+  background: #5ab080;
   border: none;
   margin-right: 15px;
   width: 150px;
@@ -107,6 +109,10 @@ nav a {
   text-align: center;
 }
 
+.process-title {
+  margin: 30px 0px;
+}
+
 .process-h2 {
   font-size: 1.7rem;
   max-width: 300px;
@@ -120,11 +126,19 @@ nav a {
 
 .process-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .box-content {
   max-width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-content .box-h3 {
+  margin: 20px 0;
 }
 
 .box {
@@ -137,3 +151,11 @@ nav a {
 .box-2 {
   background: #f0c343;
 }
+
+.box-3 {
+  background: #5ab080;
+}
+
+/* @media (max-width: 1015px) {
+  .
+} */
