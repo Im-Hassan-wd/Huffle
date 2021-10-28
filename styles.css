@@ -123,9 +123,17 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.box-content {
+  max-width: 250px;
+}
+
 .box {
   height: 80px;
   width: 80px;
   border-radius: 5px;
   background: #6082f4;
+}
+
+.box-2 {
+  background: #f0c343;
 }
