@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: #eae8e8;
+}
+
+header {
+  box-shadow: 1px 2px 3px rgb(160, 159, 159);
+  background: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav .nav-list,
+nav .nav-link {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav .nav-list {
+  flex: 1;
+  margin: 0 30px;
+}
+
+nav .nav-list li,
+nav .nav-link li {
+  padding: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-list a,
+.nav-link a {
+  color: #000;
+}
+
+.nav-list a:hover {
+  color: #36a86b;
+}
+
+.nav-link li:nth-child(2) {
+  border: 1px solid #999a9c;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border-top: 2px solid #999a9c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  margin-top: 5%;
+}
+
+.main-h1 {
+  font-size: 3rem;
+  max-width: 500px;
+}
+
+.main-p {
+  max-width: 400px;
+  font-size: 1.2rem;
+  margin: 30px 0;
+}
+
+.m-button {
+  background: #36a86b;
+  border: none;
+  margin-right: 15px;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.demo-button {
+  background: none;
+  color: #000;
+  box-shadow: 1px 2px 3px #999a9c;
+}
+
+.process {
+  background: #171739;
+}
